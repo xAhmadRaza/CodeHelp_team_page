@@ -290,7 +290,8 @@ main {
   row-gap: 6.8rem;
 }
 .text__container {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: clamp(1.6rem, 1.5vw, 2rem);
   color: #888;
   line-height: 1.6;
 }

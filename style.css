@@ -271,16 +271,16 @@ main {
   || SECTION TEAM
 *************************
 */
-
+.section__team {
+  margin-block-start: clamp(calc(3rem + 8rem), 15vw, calc(8.4rem + 8rem));
+}
 .container {
   max-width: 90%;
   width: 130rem;
   margin-inline: auto;
   margin-block-end: 7.6rem;
 }
-.section__team {
-  margin-block-start: calc(8.4rem + 8rem);
-}
+
 .section__team__goal {
   margin-block-end: 9.6rem;
 }
